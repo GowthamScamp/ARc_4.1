@@ -21,6 +21,33 @@ The backend handles model interaction, streaming responses, and RAG logic.
 The frontend provides a responsive and intuitive chat interface.
 
 ---
+ create a .env in the Backend -directory 
+
+add the below content and pass your openrouter API-key and tevily API-Key : 
+-------------------------------------------------------------------------
+# OpenRouter API Configuration
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+
+# Tavily Web Search (optional but recommended)
+TAVILY_API_KEY=your_tavily_api_key_here
+
+# Default LLM Model (reliable free models: google/gemma-3-1b-it:free, meta-llama/llama-3.2-1b-instruct:free)
+DEFAULT_MODEL=google/gemma-3-1b-it:free
+
+# Database
+
+# Vector Database (ChromaDB)
+CHROMA_PERSIST_DIRECTORY=./chroma_db
+EMBEDDING_MODEL=all-MiniLM-L6-v2
+
+# CORS (comma-separated origins)
+CORS_ORIGINS=http://localhost:3000,http://localhost:5173
+
+# Server Configuration
+DEBUG=false
+LOG_LEVEL=INFO
+
+------------------------------------------------------------------------------------------
 
 ## Getting Started
 
