@@ -9,13 +9,11 @@ Arc 4.1 is a **production-ready AI chat application** with **Retrieval-Augmented
 ---
 
 ## Project Structure
-
+```bash
 arc-4.1/
 ├── backend/ # FastAPI backend (Python)
 └── frontend/ # React + TypeScript frontend
-
-yaml
-Copy code
+```
 
 The backend handles model interaction, streaming responses, and RAG logic.  
 The frontend provides a responsive and intuitive chat interface.
