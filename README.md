@@ -39,6 +39,7 @@ DEFAULT_MODEL=google/gemma-3-1b-it:free
 
 # Vector Database (ChromaDB)
 CHROMA_PERSIST_DIRECTORY=./chroma_db
+# embedding Model
 EMBEDDING_MODEL=all-MiniLM-L6-v2
 
 # CORS (comma-separated origins)
@@ -70,20 +71,6 @@ npm install    # Run once
 npm run dev
 The frontend development server will start automatically.
 
-3. Open the Application
-Open your browser and navigate to:
-
-arduino
-Copy code
-http://localhost:3000
-Configuration
-API Key (Required)
-Create or edit the file backend/.env and add your API key:
-
-ini
-Copy code
-OPENROUTER_API_KEY=your_key_here
-The application will not function without a valid API key.
 
 Features
 💬 Real-time streaming chat responses
