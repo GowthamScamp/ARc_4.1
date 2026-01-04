@@ -24,6 +24,7 @@ The frontend provides a responsive and intuitive chat interface.
  create a .env in the Backend -directory 
 
 add the below content and pass your openrouter API-key and tevily API-Key : 
+```bash
 -------------------------------------------------------------------------
 # OpenRouter API Configuration
 OPENROUTER_API_KEY=your_openrouter_api_key_here
@@ -48,6 +49,7 @@ DEBUG=false
 LOG_LEVEL=INFO
 
 ------------------------------------------------------------------------------------------
+```
 
 ## Getting Started
 
